@@ -54,8 +54,8 @@ const Hero = () => {
                 </header>
                 <div className='rounded-full '>
                     <Image 
-                        src='/me.png'
-                        alt='me'
+                        src='/Me.png'
+                        alt='Me'
                         height={300}
                         width={300}
                         className='rounded-full border-4 border-black'
