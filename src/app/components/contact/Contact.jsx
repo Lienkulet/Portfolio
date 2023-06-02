@@ -116,7 +116,7 @@ const Contact = () => {
                     <div className='flex flex-col mx-auto gap-6'>
                       <div>
                       <header className='flex items-center justify-center text-center md:mt-4 mt-10 mb-4'>
-                          <h1 className='text-[#147efb] font-bold text-2xl'>Let's Connect🌐</h1>
+                          <h1 className='text-[#147efb] font-bold text-2xl'>{`Let's Connect🌐`}</h1>
                         </header>
                         <div className='flex flex-row items-center gap-3 bg-white p-4 rounded-xl  shadow-md border
                                             hover:border-[#147efb] ease-linear duration-700'>

@@ -28,8 +28,8 @@ const Hero = () => {
                             </div>
                         
                         
-                        <h3 className='max-w-[500px] font-medium text-lg text-[#555] font-mulish'>Hi, I'm Clocicov Alexandru, 
-                                                A passionate FullStack Web Developer from Chisinau, Moldova📌</h3>
+                        <h3 className='max-w-[500px] font-medium text-lg text-[#555] font-mulish'>{`Hi, I'm Clocicov Alexandru, 
+                                                A passionate FullStack Web Developer from Chisinau, Moldova📌`}</h3>
                     </div>
                     <div className='flex flex-col gap-4'>
                     <div className="flex flex-wrap gap-4">

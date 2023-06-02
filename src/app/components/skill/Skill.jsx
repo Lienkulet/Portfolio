@@ -17,7 +17,7 @@ const Skill = ({skill: {name, image, technologies}}) => {
         </header>
         <main className='flex flex-col items-center py-3  gap-2 '>
         {technologies?.length > 0 && technologies?.map((technology) => (
-          <h1 className='text-[#555] text-md font-normal'>{technology.name}</h1>
+          <h1 key={technology.id} className='text-[#555] text-md font-normal'>{technology.name}</h1>
           ))}
         </main>
     </article>
