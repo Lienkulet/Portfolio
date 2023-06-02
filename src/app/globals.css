@@ -2,26 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+*{
+    @apply m-0 p-0 box-border;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.container{
+    @apply my-0 mx-auto max-w-[1000px] py-0 px-4;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.blue-gradient{
+    @apply bg-gradient-to-r from-blue-400 to-blue-500;
+    @apply bg-clip-text text-transparent;
 }
+
+.floating { 
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+input:focus + h1,
+textarea:focus + h1 {
+  @apply top-[-10%] bg-white w-fit text-[#147efb] ease-in-out duration-1000;
+}
+
+form input:valid {
+  @apply bg-white ;
+}
+
+input:valid + h1,
+textarea:valid + h1 {
+  @apply top-[-10%] bg-white w-fit text-[#147efb] ease-in-out duration-1000;
+}
+
+/* @apply mt-1 ml-7 ease-in-out infinite infinite */
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 15px); }
+  100%   { transform: translate(0, -0px); }   
+}
+  
