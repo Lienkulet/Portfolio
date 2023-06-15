@@ -44,12 +44,12 @@ const Hero = () => {
                             <AiFillGithub size={'2rem'}/>
                         </Link>
                     </div>
-                    <button className='text-[#2d2e32] border border-[#2d2e32] rounded-md outline-none
+                    <Link href={'#about'} className='text-[#2d2e32] border border-[#2d2e32] rounded-md outline-none
                                            py-2 flex flex-row items-center justify-center w-full
                                           hover:border-[#147efb]  hover:text-[#147efb] 
                                           ease-in-out duration-700'>
                             About Me
-                        </button>
+                        </Link>
                     </div>
                 </header>
                 <div className='rounded-full '>
