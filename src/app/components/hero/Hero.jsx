@@ -6,7 +6,7 @@ import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
 const Hero = () => {
     return (
         <section id='hero' className='bg-[#F9F9F9] h-[100vh] flex
-                     items-center justify-center'>
+                     items-center justify-center '>
             <div className="container">
                 <div className='flex md:flex-row flex-col-reverse items-center 
                     justify-between gap-2 pr-9'>
@@ -58,7 +58,7 @@ const Hero = () => {
                         alt='Me'
                         height={300}
                         width={300}
-                        className='rounded-full border-4 border-black'
+                        className='rounded-full border-4 border-black mt-44 md:mt-0'
                     />
                 </div>
                 </div>
