@@ -2,8 +2,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
+import { urlForImage } from '../../../../sanity/lib/image'
 
-const Hero = () => {
+const Hero = ({ hero }) => {
     return (
         <section id='hero' className='bg-[#F9F9F9] h-[100vh] flex
                      items-center justify-center '>
@@ -54,7 +55,7 @@ const Hero = () => {
                 </header>
                 <div className='rounded-full '>
                     <Image 
-                        src='/Me.png'
+                        src={urlForImage(hero[0].image).url()}
                         alt='Me'
                         height={300}
                         width={300}
