@@ -55,7 +55,7 @@ const Hero = ({ hero }) => {
                 </header>
                 <div className='rounded-full '>
                     <Image 
-                        src={urlForImage(hero[0].image).url()}
+                        src={urlForImage(hero[0]?.image).url()}
                         alt='Me'
                         height={300}
                         width={300}

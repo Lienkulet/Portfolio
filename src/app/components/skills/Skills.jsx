@@ -10,8 +10,8 @@ const Skills = ({skills}) => {
                 </header>
                 <div className='flex md:flex-row flex-col items-center justify-between gap-2'>
                 {
-                  skills.length > 0 && skills.map((skill) => (
-                    <Skill key={skill.id} skill={skill} />
+                  skills.length > 0 && skills.map((skill, index) => (
+                    <Skill key={index} skill={skill} />
                     ))
                   } 
                  </div>
