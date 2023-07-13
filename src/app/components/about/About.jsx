@@ -15,9 +15,9 @@ const About = () => {
                 />
                 <div className='flex flex-col gap-3 max-w-lg'>
                     <h5 className='font-bold text-md text-[#147efb]'>ABOUT ME</h5>
-                    <h1 className='font-extrabold text-lg text-[#2d2e32]'>A dedicated FullStack Developer</h1>
+                    <h1 className='font-extrabold text-lg text-[#2d2e32]'>A dedicated Frontend Developer</h1>
                     <p className='text-[#555] text-md'>
-                    I am Alex, a dedicated fitness enthusiast and proficient full-stack developer. With a workout journey 
+                    I am Alex, a dedicated fitness enthusiast and proficient frontend developer. With a workout journey 
                     spanning over two years, I have cultivated a meticulous attention to detail. In my free time, 
                     I enjoy listening to music, a lifelong passion that aids in my concentration and serves 
                     as a constant source of motivation in my professional pursuits.

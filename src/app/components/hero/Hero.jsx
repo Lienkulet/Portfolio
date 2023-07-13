@@ -17,7 +17,7 @@ const Hero = ({ hero }) => {
                         <div className='flex flex-row items-center max-w-[450px]'>
 
                             <h1 className='font-extrabold text-5xl text-[#2d2e32]'>
-                                FullStack Web Developer
+                                Frontend Web Developer
                             </h1>
                             <Image
                                 src="/hand.png" 
@@ -30,7 +30,7 @@ const Hero = ({ hero }) => {
                         
                         
                         <h3 className='max-w-[500px] font-medium text-lg text-[#555] font-mulish'>{`Hi, I'm Clocicov Alexandru, 
-                                                A passionate FullStack Web Developer from Chisinau, Moldova📌`}</h3>
+                                                A passionate Frontend Web Developer from Chisinau, Moldova📌`}</h3>
                     </div>
                     <div className='flex flex-col gap-4'>
                     <div className="flex flex-wrap gap-4">
