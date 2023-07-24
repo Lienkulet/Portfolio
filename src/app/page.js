@@ -30,7 +30,7 @@ export default async function Home() {
   const projects = await client.fetch(projectsQuery);
   
   return (
-    <main className=" min-h-screen md:pt-20 font-mulish">
+    <main className="min-h-screen md:pt-20 font-mulish">
 
         <Hero hero={hero} />
         <About />
